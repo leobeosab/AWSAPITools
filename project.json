@@ -1,0 +1,8 @@
+{
+  "name": "AWSAPITools",
+  "description": "Collection of tools for manipulating AWS resources",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::910144801136:role/AWSAPITools_lambda_function",
+  "environment": {}
+}
