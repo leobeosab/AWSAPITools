@@ -1,0 +1,4 @@
+{
+    "description": "Takes https://github.com/leobeosab/RyanWise.Me master branch and puts it in the RyanWise.Me S3 bucket and invalidates CloudFront",
+    "runtime": "python3.7"
+}
