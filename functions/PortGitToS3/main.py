@@ -24,9 +24,10 @@ def invalidateAllCFFiles(fileList):
         })
 
 def uploadZipToS3():
+    s3Target = 'ryanwise.me' #bucket name
+    buildFolder = '/_site/' #build subdir
+
     s3 = boto3.client('s3')
-    s3Target = 'ryanwise.me'
-    buildFolder = '/_site/'
     
     putObjects = []
     fileList = []
