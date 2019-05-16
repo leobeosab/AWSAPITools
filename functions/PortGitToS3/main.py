@@ -75,5 +75,3 @@ def handle(event, context):
         'statusCode': statusCode,
         'body': json.dumps(body)
     }
-
-uploadZipToS3()
